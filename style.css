@@ -224,13 +224,16 @@ body {
 .btn-finalizar:hover {
     opacity: 0.9;
 }
-
-/* Seleção de pagamento */
-.pagamento-select {
-    padding: 12px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    font-size: 16px;
+.forma-pagamento {
+    width: 100%;
+    max-width: 400px;
+    margin: 40px auto;   /* centraliza de verdade */
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #fff;
+    clear: both;         /* impede herdar alinhamento */
 }
 
 /* ===== RESPONSIVO ===== */
@@ -262,4 +265,28 @@ body {
     padding: 15px;
     text-align: center;
     background: #fff;
+}
+.carrinho-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Container da forma de pagamento */
+.pagamento-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/* Select da forma de pagamento */
+.pagamento-select {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    text-align: center;
 }

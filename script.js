@@ -118,7 +118,7 @@ Produtos:
 ${produtos}
 Total: R$ ${total.toFixed(2)}`;
 
-    const telefoneDono = "5565999495517";
+    const telefoneDono = "556599855049";
     const url = `https://wa.me/${telefoneDono}?text=${encodeURIComponent(mensagem)}`;
 
     window.open(url, "_blank");
